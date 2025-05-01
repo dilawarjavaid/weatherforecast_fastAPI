@@ -22,3 +22,4 @@ async def get_weather_forecast(city_name: str):
         forecast_data.append(forecast)
 
     return {"city": city_name, "forecasts": forecast_data}
+
